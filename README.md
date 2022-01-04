@@ -19,6 +19,8 @@
 
 - Due to distinct paces and policy phases on speed of implementing vaccinations, China performs the best as there's an almost exponential increase of the vaccination rate. Then India also has an evident increase of rate in recent days. However, notice that Japan, Bangladesh, and Vietnam end much eariler compared to any other country more likely due to the lack in supply of vaccinations.
 
+![alter text](https://github.com/elenayinyin/Forecasting_Covid19_VaccincationRate/blob/main/daily_vacc.png)
+
 - Choose the best model ARIMA(5, 2, 4) based on AIC score. Forecast the daily vaccination rate for the following 50 days in Canada and India.
 
 - Although India has huge population as a developing country, it would perform surprisingly well in the increasing speed of daily vaccination, even faster than Canada.
