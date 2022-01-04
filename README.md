@@ -5,8 +5,8 @@
 - Examine correlations between vaccination and new death rate to get insights on how healthcare system, government, and industry can tackle this growing problem through increased immunization.
 
 **Attachments:**
-- **Covid19-vaccination.csv:** Official daily data for 218 countries collated by the Our World in Data team. Obtained from the link: https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
-- **Complete_covid19_dataset.csv:** The complete official dataset.
+- **Covid19-vaccination.csv:** Official daily data for 218 countries collated by the Our World in Data team. 
+- **Complete_covid19_dataset.csv:** The complete official dataset. Both obtained from the link: https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
 
 **Process:**
 - Clean up the missing dataset. Customize the data cleaning pipeline, examine the correlation matrix between the features, perform statistical tests to determine the similarity between their distributions, and then decide how to fill.
@@ -26,6 +26,8 @@
 - Although India has huge population as a developing country, it would perform surprisingly well in the increasing speed of daily vaccination, even faster than Canada.
 
 -  To further see the effect of vaccination on new death rate, we fit the exponential curve to the data. Observe that India has a more effective vaccination program because it responds quickly to suppress the death rate, controls the death rate as low as possible in long term, and ensures the death rate do not bounce back or do bounce in the smallest scale.
+
+![alter text](https://github.com/elenayinyin/Forecasting_Covid19_VaccincationRate/blob/main/exponential_decay.png)
 
 
 
